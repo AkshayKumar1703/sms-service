@@ -1,0 +1,44 @@
+2026-10-27T15:15:18.748+01:00  INFO 9217 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Starting SmsServiceApplication using Java 25 with PID 9217 (/Users/akshaykumar/Downloads/sms-service/target/classes started by akshaykumar in /Users/akshaykumar/Downloads/sms-service)
+2026-10-27T15:15:18.755+01:00 DEBUG 9217 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-10-27T15:15:18.758+01:00  INFO 9217 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-10-27T15:15:19.058+01:00  INFO 9217 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-27T15:15:19.059+01:00  INFO 9217 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-27T15:15:21.594+01:00  INFO 9217 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-27T15:15:21.811+01:00  INFO 9217 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 173 ms. Found 1 JPA repository interface.
+2026-10-27T15:15:23.602+01:00  INFO 9217 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-27T15:15:23.646+01:00  INFO 9217 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-27T15:15:23.647+01:00  INFO 9217 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-27T15:15:23.816+01:00  INFO 9217 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-27T15:15:23.819+01:00  INFO 9217 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4758 ms
+2026-10-27T15:15:26.209+01:00  INFO 9217 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-27T15:15:26.684+01:00  INFO 9217 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-10-27T15:15:26.871+01:00  INFO 9217 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-27T15:15:28.433+01:00  INFO 9217 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-27T15:15:28.541+01:00  INFO 9217 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-27T15:15:28.858+01:00  INFO 9217 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d8a8a7b
+2026-10-27T15:15:28.862+01:00  INFO 9217 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-27T15:15:28.978+01:00  WARN 9217 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-27T15:15:29.019+01:00  INFO 9217 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-27T15:15:31.514+01:00  INFO 9217 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-27T15:15:31.719+01:00  INFO 9217 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-27T15:15:32.633+01:00  WARN 9217 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-27T15:15:33.385+01:00  INFO 9217 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-27T15:15:33.435+01:00  INFO 9217 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-27T15:15:33.450+01:00  INFO 9217 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Started SmsServiceApplication in 16.933 seconds (process running for 19.356)
+2026-10-27T15:15:47.480+01:00  INFO 9217 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-27T15:15:47.481+01:00  INFO 9217 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-27T15:15:47.482+01:00  INFO 9217 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-27T15:15:47.765+01:00  INFO 9217 --- [http-nio-8080-exec-2] c.e.sms_service.service.SmsService       : Sending SMS to +917349094496
+2026-10-27T15:15:50.123+01:00 DEBUG 9217 --- [http-nio-8080-exec-2] c.e.sms_service.service.SmsService       : Request received: to=+917349094496, bodyLength=39
+2026-10-27T15:21:24.223+01:00  INFO 9217 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-27T15:21:24.232+01:00  INFO 9217 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-10-27T15:21:24.236+01:00  INFO 9217 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-27T15:21:24.244+01:00  INFO 9217 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-27T15:21:24.250+01:00  INFO 9217 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

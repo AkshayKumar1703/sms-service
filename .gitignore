@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+logging.level.org.hibernate.SQL=DEBUG
+logging.level.org.hibernate.orm.jdbc.bind=TRACE

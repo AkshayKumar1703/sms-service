@@ -19,6 +19,9 @@ public class SmsMessage {
     private String phoneNumber;
     private String message;
     private String status;
+    private String twilioSid;
 
+    @Column(length = 500)
+    private String errorMessage;
     private LocalDateTime createdAt = LocalDateTime.now();
 }
