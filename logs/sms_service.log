@@ -1,24 +1,29 @@
-2026-10-27T15:15:18.748+01:00  INFO 9217 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Starting SmsServiceApplication using Java 25 with PID 9217 (/Users/akshaykumar/Downloads/sms-service/target/classes started by akshaykumar in /Users/akshaykumar/Downloads/sms-service)
-2026-10-27T15:15:18.755+01:00 DEBUG 9217 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Running with Spring Boot v3.5.7, Spring v6.2.12
-2026-10-27T15:15:18.758+01:00  INFO 9217 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : No active profile set, falling back to 1 default profile: "default"
-2026-10-27T15:15:19.058+01:00  INFO 9217 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-10-27T15:15:19.059+01:00  INFO 9217 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-10-27T15:15:21.594+01:00  INFO 9217 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-10-27T15:15:21.811+01:00  INFO 9217 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 173 ms. Found 1 JPA repository interface.
-2026-10-27T15:15:23.602+01:00  INFO 9217 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-10-27T15:15:23.646+01:00  INFO 9217 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-10-27T15:15:23.647+01:00  INFO 9217 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2026-10-27T15:15:23.816+01:00  INFO 9217 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-10-27T15:15:23.819+01:00  INFO 9217 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4758 ms
-2026-10-27T15:15:26.209+01:00  INFO 9217 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-10-27T15:15:26.684+01:00  INFO 9217 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2026-10-27T15:15:26.871+01:00  INFO 9217 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-10-27T15:15:28.433+01:00  INFO 9217 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-10-27T15:15:28.541+01:00  INFO 9217 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-10-27T15:15:28.858+01:00  INFO 9217 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d8a8a7b
-2026-10-27T15:15:28.862+01:00  INFO 9217 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-10-27T15:15:28.978+01:00  WARN 9217 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-10-27T15:15:29.019+01:00  INFO 9217 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-11-09T10:29:29.844+01:00  INFO 38862 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Starting SmsServiceApplication using Java 25 with PID 38862 (/Users/akshaykumar/Downloads/sms-service/target/classes started by akshaykumar in /Users/akshaykumar/Downloads/sms-service)
+2026-11-09T10:29:29.942+01:00 DEBUG 38862 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-11-09T10:29:29.948+01:00  INFO 38862 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-11-09T10:29:30.461+01:00  INFO 38862 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-09T10:29:30.463+01:00  INFO 38862 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-09T10:29:34.271+01:00  INFO 38862 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-09T10:29:34.278+01:00  INFO 38862 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-09T10:29:35.002+01:00  INFO 38862 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 651 ms. Found 1 JPA repository interface.
+2026-11-09T10:29:35.057+01:00  INFO 38862 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-09T10:29:35.061+01:00  INFO 38862 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-11-09T10:29:35.100+01:00  INFO 38862 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.sms_service.repository.SmsMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-09T10:29:35.101+01:00  INFO 38862 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2026-11-09T10:29:40.260+01:00  INFO 38862 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-09T10:29:40.887+01:00  INFO 38862 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-09T10:29:40.892+01:00  INFO 38862 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-11-09T10:29:41.527+01:00  INFO 38862 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-09T10:29:41.528+01:00  INFO 38862 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11062 ms
+2026-11-09T10:29:43.375+01:00  INFO 38862 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-09T10:29:43.877+01:00  INFO 38862 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-11-09T10:29:44.155+01:00  INFO 38862 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-09T10:29:45.212+01:00  INFO 38862 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-09T10:29:45.295+01:00  INFO 38862 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-09T10:29:45.752+01:00  INFO 38862 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2d041f63
+2026-11-09T10:29:45.756+01:00  INFO 38862 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-09T10:29:45.922+01:00  WARN 38862 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-09T10:29:46.051+01:00  INFO 38862 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 14.19
@@ -26,19 +31,456 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-10-27T15:15:31.514+01:00  INFO 9217 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-10-27T15:15:31.719+01:00  INFO 9217 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-10-27T15:15:32.633+01:00  WARN 9217 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-10-27T15:15:33.385+01:00  INFO 9217 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-10-27T15:15:33.435+01:00  INFO 9217 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-10-27T15:15:33.450+01:00  INFO 9217 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Started SmsServiceApplication in 16.933 seconds (process running for 19.356)
-2026-10-27T15:15:47.480+01:00  INFO 9217 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-10-27T15:15:47.481+01:00  INFO 9217 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-10-27T15:15:47.482+01:00  INFO 9217 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-10-27T15:15:47.765+01:00  INFO 9217 --- [http-nio-8080-exec-2] c.e.sms_service.service.SmsService       : Sending SMS to +917349094496
-2026-10-27T15:15:50.123+01:00 DEBUG 9217 --- [http-nio-8080-exec-2] c.e.sms_service.service.SmsService       : Request received: to=+917349094496, bodyLength=39
-2026-10-27T15:21:24.223+01:00  INFO 9217 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-10-27T15:21:24.232+01:00  INFO 9217 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-10-27T15:21:24.236+01:00  INFO 9217 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-10-27T15:21:24.244+01:00  INFO 9217 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-10-27T15:21:24.250+01:00  INFO 9217 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-09T10:29:48.147+01:00  INFO 38862 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-09T10:29:48.493+01:00  INFO 38862 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09T10:29:49.439+01:00  WARN 38862 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-09T10:29:50.128+01:00  INFO 38862 --- [restartedMain] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2026-11-09T10:29:50.130+01:00  INFO 38862 --- [restartedMain] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2026-11-09T10:29:50.132+01:00  INFO 38862 --- [restartedMain] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2026-11-09T10:29:50.133+01:00  INFO 38862 --- [restartedMain] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2026-11-09T10:29:50.736+01:00  INFO 38862 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-11-09T10:29:50.787+01:00  INFO 38862 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-11-09T10:29:50.804+01:00  INFO 38862 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Started SmsServiceApplication in 25.252 seconds (process running for 27.196)
+2026-11-09T10:46:44.170+01:00  WARN 38862 --- [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m58s297ms).
+2026-11-09T11:13:48.921+01:00  INFO 38862 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-09T11:13:48.933+01:00  INFO 38862 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-09T11:13:49.009+01:00  INFO 38862 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 74 ms
+2026-11-09T11:13:50.882+01:00  INFO 38862 --- [http-nio-8080-exec-1] c.e.sms_service.service.SmsService       : Sending SMS to +917349094496
+2026-11-09T11:13:58.435+01:00 DEBUG 38862 --- [http-nio-8080-exec-1] c.e.sms_service.service.SmsService       : Request received: to = +917349094496, bodyLength = 8
+2026-11-09T11:14:00.911+01:00  INFO 38862 --- [http-nio-8080-exec-1] c.e.sms_service.service.SmsService       : Sending SMS to +917349094496
+2026-11-09T11:14:01.248+01:00 DEBUG 38862 --- [http-nio-8080-exec-1] c.e.sms_service.service.SmsService       : Request received: to = +917349094496, bodyLength = 10
+2026-11-09T11:14:01.339+01:00  INFO 38862 --- [http-nio-8080-exec-1] c.e.sms_service.service.SmsService       : Sending SMS to +917349094496
+2026-11-09T11:14:01.641+01:00 DEBUG 38862 --- [http-nio-8080-exec-1] c.e.sms_service.service.SmsService       : Request received: to = +917349094496, bodyLength = 7
+2026-11-09T11:14:24.513+01:00  INFO 38862 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-09T11:14:24.537+01:00  INFO 38862 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-11-09T11:14:24.978+01:00  INFO 38862 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09T11:14:25.022+01:00  INFO 38862 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-09T11:14:25.033+01:00  INFO 38862 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-09T13:37:35.570+01:00  INFO 41529 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Starting SmsServiceApplication using Java 25 with PID 41529 (/Users/akshaykumar/Downloads/sms-service/target/classes started by akshaykumar in /Users/akshaykumar/Downloads/sms-service)
+2026-11-09T13:37:35.575+01:00 DEBUG 41529 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-11-09T13:37:35.577+01:00  INFO 41529 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-11-09T13:37:35.850+01:00  INFO 41529 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-09T13:37:35.854+01:00  INFO 41529 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-09T13:37:39.147+01:00  INFO 41529 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-09T13:37:39.166+01:00  INFO 41529 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-09T13:37:40.766+01:00  INFO 41529 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1507 ms. Found 1 JPA repository interface.
+2026-11-09T13:37:40.813+01:00  INFO 41529 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-09T13:37:40.817+01:00  INFO 41529 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-11-09T13:37:40.850+01:00  INFO 41529 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.sms_service.repository.SmsMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-09T13:37:40.851+01:00  INFO 41529 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2026-11-09T13:37:42.876+01:00  INFO 41529 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-09T13:37:42.922+01:00  INFO 41529 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-09T13:37:42.923+01:00  INFO 41529 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-11-09T13:37:43.025+01:00  INFO 41529 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-09T13:37:43.026+01:00  INFO 41529 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7162 ms
+2026-11-09T13:37:43.822+01:00  INFO 41529 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-09T13:37:43.979+01:00  INFO 41529 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-11-09T13:37:44.091+01:00  INFO 41529 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-09T13:37:45.022+01:00  INFO 41529 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-09T13:37:45.087+01:00  INFO 41529 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-09T13:37:45.442+01:00  INFO 41529 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6499b946
+2026-11-09T13:37:45.445+01:00  INFO 41529 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-09T13:37:45.557+01:00  WARN 41529 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-09T13:37:45.679+01:00  INFO 41529 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-09T13:37:47.750+01:00  INFO 41529 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-09T13:37:48.005+01:00  INFO 41529 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09T13:37:48.960+01:00  WARN 41529 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'smsController' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/controller/SmsController.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'smsQueueService' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/service/SmsQueueService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.apache.catalina.Executor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("smsWorker")}
+2026-11-09T13:37:48.961+01:00  INFO 41529 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09T13:37:48.973+01:00  INFO 41529 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-09T13:37:48.979+01:00  INFO 41529 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-09T13:37:48.988+01:00  INFO 41529 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-11-09T13:37:49.018+01:00  INFO 41529 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-11-09T13:37:49.078+01:00 ERROR 41529 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.example.sms_service.service.SmsQueueService required a bean of type 'org.apache.catalina.Executor' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.apache.catalina.Executor' in your configuration.
+
+2026-11-09T13:39:57.675+01:00  INFO 41609 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Starting SmsServiceApplication using Java 25 with PID 41609 (/Users/akshaykumar/Downloads/sms-service/target/classes started by akshaykumar in /Users/akshaykumar/Downloads/sms-service)
+2026-11-09T13:39:57.680+01:00 DEBUG 41609 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-11-09T13:39:57.681+01:00  INFO 41609 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-11-09T13:39:57.877+01:00  INFO 41609 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-09T13:39:57.877+01:00  INFO 41609 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-09T13:40:00.276+01:00  INFO 41609 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-09T13:40:00.284+01:00  INFO 41609 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-09T13:40:00.856+01:00  INFO 41609 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 534 ms. Found 1 JPA repository interface.
+2026-11-09T13:40:00.902+01:00  INFO 41609 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-09T13:40:00.905+01:00  INFO 41609 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-11-09T13:40:00.938+01:00  INFO 41609 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.sms_service.repository.SmsMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-09T13:40:00.939+01:00  INFO 41609 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2026-11-09T13:40:02.389+01:00  INFO 41609 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-09T13:40:02.428+01:00  INFO 41609 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-09T13:40:02.428+01:00  INFO 41609 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-11-09T13:40:02.571+01:00  INFO 41609 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-09T13:40:02.573+01:00  INFO 41609 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4695 ms
+2026-11-09T13:40:03.215+01:00  INFO 41609 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-09T13:40:03.333+01:00  INFO 41609 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-11-09T13:40:03.408+01:00  INFO 41609 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-09T13:40:04.199+01:00  INFO 41609 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-09T13:40:04.252+01:00  INFO 41609 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-09T13:40:04.506+01:00  INFO 41609 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e17133f
+2026-11-09T13:40:04.509+01:00  INFO 41609 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-09T13:40:04.629+01:00  WARN 41609 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-09T13:40:04.657+01:00  INFO 41609 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-09T13:40:06.589+01:00  INFO 41609 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-09T13:40:06.671+01:00  INFO 41609 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09T13:40:07.383+01:00  WARN 41609 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'smsController' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/controller/SmsController.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'smsQueueService' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/service/SmsQueueService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.apache.catalina.Executor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("smsWorker")}
+2026-11-09T13:40:07.385+01:00  INFO 41609 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09T13:40:07.394+01:00  INFO 41609 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-09T13:40:07.398+01:00  INFO 41609 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-09T13:40:07.405+01:00  INFO 41609 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-11-09T13:40:07.428+01:00  INFO 41609 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-11-09T13:40:07.494+01:00 ERROR 41609 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.example.sms_service.service.SmsQueueService required a bean of type 'org.apache.catalina.Executor' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.apache.catalina.Executor' in your configuration.
+
+2026-11-09T13:41:01.790+01:00  INFO 41651 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Starting SmsServiceApplication using Java 25 with PID 41651 (/Users/akshaykumar/Downloads/sms-service/target/classes started by akshaykumar in /Users/akshaykumar/Downloads/sms-service)
+2026-11-09T13:41:01.795+01:00 DEBUG 41651 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-11-09T13:41:01.797+01:00  INFO 41651 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-11-09T13:41:01.960+01:00  INFO 41651 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-09T13:41:01.960+01:00  INFO 41651 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-09T13:41:03.837+01:00  INFO 41651 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-09T13:41:03.846+01:00  INFO 41651 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-09T13:41:04.750+01:00  INFO 41651 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 848 ms. Found 1 JPA repository interface.
+2026-11-09T13:41:04.996+01:00  INFO 41651 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-09T13:41:04.999+01:00  INFO 41651 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-11-09T13:41:05.063+01:00  INFO 41651 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.sms_service.repository.SmsMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-09T13:41:05.064+01:00  INFO 41651 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2026-11-09T13:41:06.694+01:00  INFO 41651 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-09T13:41:06.735+01:00  INFO 41651 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-09T13:41:06.735+01:00  INFO 41651 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-11-09T13:41:06.835+01:00  INFO 41651 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-09T13:41:06.841+01:00  INFO 41651 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4879 ms
+2026-11-09T13:41:07.781+01:00  INFO 41651 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-09T13:41:07.972+01:00  INFO 41651 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-11-09T13:41:08.098+01:00  INFO 41651 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-09T13:41:09.154+01:00  INFO 41651 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-09T13:41:09.215+01:00  INFO 41651 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-09T13:41:09.530+01:00  INFO 41651 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5bb51818
+2026-11-09T13:41:09.534+01:00  INFO 41651 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-09T13:41:09.725+01:00  WARN 41651 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-09T13:41:09.790+01:00  INFO 41651 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-09T13:41:12.098+01:00  INFO 41651 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-09T13:41:12.229+01:00  INFO 41651 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09T13:41:13.539+01:00  WARN 41651 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'smsController' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/controller/SmsController.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'smsQueueService' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/service/SmsQueueService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.apache.catalina.Executor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("smsWorker")}
+2026-11-09T13:41:13.543+01:00  INFO 41651 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09T13:41:13.562+01:00  INFO 41651 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-09T13:41:13.567+01:00  INFO 41651 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-09T13:41:13.576+01:00  INFO 41651 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-11-09T13:41:13.612+01:00  INFO 41651 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-11-09T13:41:13.676+01:00 ERROR 41651 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.example.sms_service.service.SmsQueueService required a bean of type 'org.apache.catalina.Executor' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.apache.catalina.Executor' in your configuration.
+
+2026-11-09T13:48:10.042+01:00  INFO 41851 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Starting SmsServiceApplication using Java 25 with PID 41851 (/Users/akshaykumar/Downloads/sms-service/target/classes started by akshaykumar in /Users/akshaykumar/Downloads/sms-service)
+2026-11-09T13:48:10.054+01:00 DEBUG 41851 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-11-09T13:48:10.056+01:00  INFO 41851 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-11-09T13:48:10.177+01:00  INFO 41851 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-09T13:48:10.178+01:00  INFO 41851 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-09T13:48:12.140+01:00  INFO 41851 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-09T13:48:12.145+01:00  INFO 41851 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-09T13:48:12.931+01:00  INFO 41851 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 738 ms. Found 1 JPA repository interface.
+2026-11-09T13:48:13.064+01:00  INFO 41851 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-09T13:48:13.069+01:00  INFO 41851 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-11-09T13:48:13.179+01:00  INFO 41851 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.sms_service.repository.SmsMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-09T13:48:13.180+01:00  INFO 41851 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2026-11-09T13:48:14.554+01:00  INFO 41851 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-09T13:48:14.585+01:00  INFO 41851 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-09T13:48:14.586+01:00  INFO 41851 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-11-09T13:48:14.669+01:00  INFO 41851 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-09T13:48:14.670+01:00  INFO 41851 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4490 ms
+2026-11-09T13:48:15.388+01:00  INFO 41851 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-09T13:48:15.517+01:00  INFO 41851 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-11-09T13:48:15.604+01:00  INFO 41851 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-09T13:48:16.362+01:00  INFO 41851 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-09T13:48:16.418+01:00  INFO 41851 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-09T13:48:16.715+01:00  INFO 41851 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5bb51818
+2026-11-09T13:48:16.718+01:00  INFO 41851 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-09T13:48:16.850+01:00  WARN 41851 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-09T13:48:16.887+01:00  INFO 41851 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-09T13:48:18.718+01:00  INFO 41851 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-09T13:48:18.814+01:00  INFO 41851 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09T13:48:19.558+01:00  WARN 41851 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'smsController' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/controller/SmsController.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'smsQueueService' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/service/SmsQueueService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'java.util.concurrent.Executor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("smsWorker")}
+2026-11-09T13:48:19.560+01:00  INFO 41851 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09T13:48:19.570+01:00  INFO 41851 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-09T13:48:19.575+01:00  INFO 41851 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-09T13:48:19.582+01:00  INFO 41851 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-11-09T13:48:19.605+01:00  INFO 41851 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-11-09T13:48:19.658+01:00 ERROR 41851 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'smsController' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/controller/SmsController.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'smsQueueService' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/service/SmsQueueService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'java.util.concurrent.Executor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("smsWorker")}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:990) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.7.jar:3.5.7]
+	at com.example.sms_service.SmsServiceApplication.main(SmsServiceApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.7.jar:3.5.7]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'smsQueueService' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/service/SmsQueueService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'java.util.concurrent.Executor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("smsWorker")}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.12.jar:6.2.12]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.util.concurrent.Executor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("smsWorker")}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:2314) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1733) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.12.jar:6.2.12]
+	... 37 common frames omitted
+
+2026-11-09T15:57:15.405+01:00  INFO 43455 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Starting SmsServiceApplication using Java 25 with PID 43455 (/Users/akshaykumar/Downloads/sms-service/target/classes started by akshaykumar in /Users/akshaykumar/Downloads/sms-service)
+2026-11-09T15:57:15.419+01:00 DEBUG 43455 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-11-09T15:57:15.421+01:00  INFO 43455 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-11-09T15:57:15.605+01:00  INFO 43455 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-09T15:57:15.606+01:00  INFO 43455 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-09T15:57:17.816+01:00  INFO 43455 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-09T15:57:17.821+01:00  INFO 43455 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-09T15:57:18.377+01:00  INFO 43455 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 533 ms. Found 1 JPA repository interface.
+2026-11-09T15:57:18.422+01:00  INFO 43455 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-09T15:57:18.426+01:00  INFO 43455 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-11-09T15:57:18.459+01:00  INFO 43455 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.sms_service.repository.SmsMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-09T15:57:18.460+01:00  INFO 43455 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2026-11-09T15:57:20.005+01:00  INFO 43455 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-09T15:57:20.044+01:00  INFO 43455 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-09T15:57:20.045+01:00  INFO 43455 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-11-09T15:57:20.161+01:00  INFO 43455 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-09T15:57:20.165+01:00  INFO 43455 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4557 ms
+2026-11-09T15:57:21.141+01:00  INFO 43455 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-09T15:57:21.290+01:00  INFO 43455 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-11-09T15:57:21.416+01:00  INFO 43455 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-09T15:57:22.298+01:00  INFO 43455 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-09T15:57:22.370+01:00  INFO 43455 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-09T15:57:23.287+01:00  INFO 43455 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@666fce80
+2026-11-09T15:57:23.295+01:00  INFO 43455 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-09T15:57:23.519+01:00  WARN 43455 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-09T15:57:23.557+01:00  INFO 43455 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-09T15:57:25.602+01:00  INFO 43455 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-09T15:57:25.802+01:00  INFO 43455 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09T15:57:26.591+01:00  WARN 43455 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'smsController' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/controller/SmsController.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'smsQueueService' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/service/SmsQueueService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'java.util.concurrent.Executor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("smsWorker")}
+2026-11-09T15:57:26.592+01:00  INFO 43455 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09T15:57:26.604+01:00  INFO 43455 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-09T15:57:26.608+01:00  INFO 43455 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-09T15:57:26.615+01:00  INFO 43455 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-11-09T15:57:26.642+01:00  INFO 43455 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-11-09T15:57:26.707+01:00 ERROR 43455 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'smsController' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/controller/SmsController.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'smsQueueService' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/service/SmsQueueService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'java.util.concurrent.Executor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("smsWorker")}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:990) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.7.jar:3.5.7]
+	at com.example.sms_service.SmsServiceApplication.main(SmsServiceApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.7.jar:3.5.7]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'smsQueueService' defined in file [/Users/akshaykumar/Downloads/sms-service/target/classes/com/example/sms_service/service/SmsQueueService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'java.util.concurrent.Executor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("smsWorker")}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.12.jar:6.2.12]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.util.concurrent.Executor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("smsWorker")}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:2314) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1733) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.12.jar:6.2.12]
+	... 37 common frames omitted
+
+2026-11-09T16:08:11.762+01:00  INFO 43761 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Starting SmsServiceApplication using Java 25 with PID 43761 (/Users/akshaykumar/Downloads/sms-service/target/classes started by akshaykumar in /Users/akshaykumar/Downloads/sms-service)
+2026-11-09T16:08:11.767+01:00 DEBUG 43761 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-11-09T16:08:11.768+01:00  INFO 43761 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-11-09T16:08:11.942+01:00  INFO 43761 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-09T16:08:11.942+01:00  INFO 43761 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-09T16:08:14.142+01:00  INFO 43761 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-09T16:08:14.148+01:00  INFO 43761 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-09T16:08:14.679+01:00  INFO 43761 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 503 ms. Found 1 JPA repository interface.
+2026-11-09T16:08:14.745+01:00  INFO 43761 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-09T16:08:14.749+01:00  INFO 43761 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-11-09T16:08:14.801+01:00  INFO 43761 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.sms_service.repository.SmsMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-09T16:08:14.802+01:00  INFO 43761 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2026-11-09T16:08:16.837+01:00  INFO 43761 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-09T16:08:16.879+01:00  INFO 43761 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-09T16:08:16.880+01:00  INFO 43761 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-11-09T16:08:17.022+01:00  INFO 43761 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-09T16:08:17.024+01:00  INFO 43761 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5080 ms
+2026-11-09T16:08:17.741+01:00  INFO 43761 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-09T16:08:17.861+01:00  INFO 43761 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-11-09T16:08:17.944+01:00  INFO 43761 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-09T16:08:18.917+01:00  INFO 43761 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-09T16:08:18.967+01:00  INFO 43761 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-09T16:08:19.328+01:00  INFO 43761 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@46153f42
+2026-11-09T16:08:19.333+01:00  INFO 43761 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-09T16:08:19.486+01:00  WARN 43761 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-09T16:08:19.566+01:00  INFO 43761 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.19
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-09T16:08:21.827+01:00  INFO 43761 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-09T16:08:21.913+01:00  INFO 43761 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09T16:08:23.302+01:00  WARN 43761 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-09T16:08:24.567+01:00  INFO 43761 --- [restartedMain] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2026-11-09T16:08:24.569+01:00  INFO 43761 --- [restartedMain] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2026-11-09T16:08:24.570+01:00  INFO 43761 --- [restartedMain] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2026-11-09T16:08:24.571+01:00  INFO 43761 --- [restartedMain] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2026-11-09T16:08:25.226+01:00  INFO 43761 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-11-09T16:08:25.272+01:00  INFO 43761 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-11-09T16:08:25.290+01:00  INFO 43761 --- [restartedMain] c.e.sms_service.SmsServiceApplication    : Started SmsServiceApplication in 14.987 seconds (process running for 16.621)
+2026-11-09T16:11:34.265+01:00  INFO 43761 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-09T16:11:34.269+01:00  INFO 43761 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-09T16:11:34.283+01:00  INFO 43761 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2026-11-09T16:11:34.996+01:00  INFO 43761 --- [http-nio-8080-exec-2] c.e.sms_service.service.SmsQueueService  : Queued SMS to +917349094496
+2026-11-09T16:12:00.627+01:00  INFO 43761 --- [http-nio-8080-exec-5] c.e.sms_service.service.SmsQueueService  : Queued SMS to +917349094496
+2026-11-09T16:12:10.977+01:00  INFO 43761 --- [http-nio-8080-exec-8] c.e.sms_service.service.SmsQueueService  : Queued SMS to +917349094496
+2026-11-09T16:12:20.152+01:00  INFO 43761 --- [http-nio-8080-exec-1] c.e.sms_service.service.SmsQueueService  : Queued SMS to +917349094496
+2026-11-09T16:13:37.032+01:00  INFO 43761 --- [sms-worker-1] c.e.sms_service.service.SmsQueueService  : Sending sms to +917349094496
+2026-11-09T16:13:37.048+01:00  INFO 43761 --- [sms-worker-2] c.e.sms_service.service.SmsQueueService  : Sending sms to +917349094496
+2026-11-09T16:13:37.055+01:00  INFO 43761 --- [sms-worker-3] c.e.sms_service.service.SmsQueueService  : Sending sms to +917349094496
+2026-11-09T16:13:37.111+01:00  INFO 43761 --- [sms-worker-1] c.e.sms_service.service.SmsService       : Sending SMS to +917349094496
+2026-11-09T16:13:37.111+01:00  INFO 43761 --- [sms-worker-3] c.e.sms_service.service.SmsService       : Sending SMS to +917349094496
+2026-11-09T16:13:37.111+01:00  INFO 43761 --- [sms-worker-2] c.e.sms_service.service.SmsService       : Sending SMS to +917349094496
+2026-11-09T16:13:39.915+01:00 DEBUG 43761 --- [sms-worker-2] c.e.sms_service.service.SmsService       : Request received: to = +917349094496, bodyLength = 16
+2026-11-09T16:13:39.915+01:00 DEBUG 43761 --- [sms-worker-3] c.e.sms_service.service.SmsService       : Request received: to = +917349094496, bodyLength = 16
+2026-11-09T16:13:39.915+01:00 DEBUG 43761 --- [sms-worker-1] c.e.sms_service.service.SmsService       : Request received: to = +917349094496, bodyLength = 8
+2026-11-09T16:14:42.027+01:00  INFO 43761 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-09T16:14:42.045+01:00  INFO 43761 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-11-09T16:14:42.126+01:00  INFO 43761 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-09T16:14:42.136+01:00  INFO 43761 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-09T16:14:42.144+01:00  INFO 43761 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -7,6 +7,8 @@ import com.twilio.type.PhoneNumber;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -20,9 +22,16 @@ public class SmsService {
     private final SmsMessageRepository repository;
 
     public SmsService(SmsMessageRepository repository) {
+
         this.repository = repository;
     }
+    @Cacheable(value = "sms", key = "#id")
+    public SmsMessage getById(Long id) {
+        log.info("Cache miss: loading SMS {} from database", id);
+        return repository.findById(id).orElse(null);
+    }
 
+    @CachePut(value = "sms", key = "#result.id")
     public SmsMessage sendSms(String to, String body) {
         log.info("Sending SMS to {}", to);
 
@@ -36,10 +45,11 @@ public class SmsService {
                     new PhoneNumber(fromPhone),
                     body
             ).create();
-            log.debug("Request received: to={}, bodyLength={}", to, body.length());
+            log.debug("Request received: to = {}, bodyLength = {}", to, body.length());
             sms.setStatus("SENT");
             sms.setTwilioSid(result.getSid());
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             log.error("Failed to send SMS to {}", to, e);
             sms.setStatus("FAILED");
             sms.setErrorMessage(e.getMessage());
