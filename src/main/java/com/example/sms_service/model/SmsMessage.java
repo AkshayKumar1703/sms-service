@@ -14,16 +14,17 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 public class SmsMessage implements Serializable {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  private Long id;
 
-    private String phoneNumber;
-    private String message;
-    private String status;
-    private String twilioSid;
+  private String phoneNumber;
+  private String message;
+  private String status;
+  private String twilioSid;
 
-    @Column(length = 500)
-    private String errorMessage;
-    private LocalDateTime createdAt = LocalDateTime.now();
+  @Column(length = 500)
+  private String errorMessage;
+
+  private LocalDateTime createdAt = LocalDateTime.now();
 }
